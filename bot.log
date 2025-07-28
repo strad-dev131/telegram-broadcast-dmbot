@@ -1,0 +1,2472 @@
+2025-07-28 16:31:18 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:31:18 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:31:18 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:31:18 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:31:18.724746
+2025-07-28 16:31:18 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:31:18 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:31:19 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:31:19 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:31:19 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:31:21 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:31:21 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:31:21 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:31:21 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:31:21 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:31:22 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:31:22 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:31:22 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:31:22 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:31:22 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:31:24 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:31:24 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:31:24 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:31:24 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:31:24 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:31:25 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:31:25 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:31:25 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:31:25 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:31:25 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:31:26 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:31:26 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:31:39 - pyrogram.dispatcher - ERROR - dispatcher.py:229 - TelegramBot.owner_filter() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/handlers/handler.py", line 35, in check
+    return await self.filters(client, update)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/filters.py", line 81, in __call__
+    y = await client.loop.run_in_executor(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TelegramBot.owner_filter() missing 1 required positional argument: 'message'
+2025-07-28 16:33:54 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:33:54 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:33:54 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:33:54 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:33:54.021964
+2025-07-28 16:33:54 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:33:54 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:33:54 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:33:54 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:33:54 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:33:55 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:33:55 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:33:55 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:33:55 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:33:55 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:33:55 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:33:55 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:34:45 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:34:45 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:34:45 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:34:45 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:34:45.824261
+2025-07-28 16:34:45 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:34:45 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:34:46 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:34:46 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:34:46 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:34:47 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:34:47 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:34:47 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:34:47 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:34:47 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:34:47 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:34:47 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:35:23 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:35:23 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:35:23 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:35:23 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:35:23.907103
+2025-07-28 16:35:23 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:35:23 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:35:24 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:35:24 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:35:24 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:35:25 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:35:25 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:35:25 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:35:25 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:35:25 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:35:25 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:35:25 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:37:27 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:37:27 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:37:27 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:37:29 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:37:29 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:37:29 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:37:29 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:37:29 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:37:30 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:37:30 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:37:30 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:37:30 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:37:30 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:37:32 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:37:32 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:37:32 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:37:33 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:37:33 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:37:34 - otp_handler - INFO - otp_handler.py:53 - OTP sent successfully to +918709669105
+2025-07-28 16:37:34 - pyrogram.parser.html - INFO - html.py:134 - Unclosed tags: <code> (x1)
+2025-07-28 16:37:52 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:37:52 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:37:52 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:37:52 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:38:39 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:38:39 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:38:39 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:38:41 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:38:41 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:38:41 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:38:41 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:38:41 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:38:42 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:38:42 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:38:42 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:38:42 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:38:42 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:38:44 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:38:44 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:38:44 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:38:44 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:38:44 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:38:45 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:38:45 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:38:45 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:38:45 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:38:45 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:38:46 - otp_handler - INFO - otp_handler.py:53 - OTP sent successfully to +919310766161
+2025-07-28 16:38:46 - pyrogram.parser.html - INFO - html.py:134 - Unclosed tags: <code> (x1)
+2025-07-28 16:38:58 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:38:58 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:38:58 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:38:58 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:38:58 - otp_handler - INFO - otp_handler.py:93 - OTP verification successful for None
+2025-07-28 16:39:24 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:39:24 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:24 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:39:26 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:39:26 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:39:26 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:26 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:39:26 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:39:27 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:39:27 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:39:27 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:39:27 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:27 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:39:29 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:39:29 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:39:29 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:29 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:39:29 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:39:30 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:39:30 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:39:30 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:39:30 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:39:30 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:39:30 - otp_handler - INFO - otp_handler.py:53 - OTP sent successfully to +919310766161
+2025-07-28 16:39:30 - pyrogram.parser.html - INFO - html.py:134 - Unclosed tags: <code> (x1)
+2025-07-28 16:39:57 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:39:57 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:39:57 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:39:57 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:39:57 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:39:57 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:58 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:39:59 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:39:59 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:39:59 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:39:59 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:39:59 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:40:00 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:40:00 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:40:00 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:40:00 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:40:00 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:40:02 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:40:02 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:40:02 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:40:02 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:40:02 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:40:03 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:40:03 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:40:03 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:40:03 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:40:03 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:40:04 - otp_handler - INFO - otp_handler.py:53 - OTP sent successfully to +919310766161
+2025-07-28 16:40:04 - pyrogram.parser.html - INFO - html.py:134 - Unclosed tags: <code> (x1)
+2025-07-28 16:40:12 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:40:12 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:40:12 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:40:12 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:40:12 - otp_handler - INFO - otp_handler.py:93 - OTP verification successful for None
+2025-07-28 16:42:17 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:42:17 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:42:17 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:42:17 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:42:17.662883
+2025-07-28 16:42:17 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:42:17 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:42:17 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:18 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:42:18 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:42:19 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:42:19 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:42:34 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC2
+2025-07-28 16:42:34 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:34 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:42:35 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:42:35 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:42:35 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:36 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC2 - IPv4
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:42:36 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:42:36 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:42:36 - pyrogram.session.auth - INFO - auth.py:82 - Start creating a new auth key on DC5
+2025-07-28 16:42:36 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:37 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:42:39 - pyrogram.session.auth - INFO - auth.py:267 - Done auth key exchange: DhGenOk
+2025-07-28 16:42:39 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:42:39 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:39 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:42:39 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:42:40 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:42:40 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:42:40 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:42:40 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:42:40 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:42:40 - otp_handler - INFO - otp_handler.py:53 - OTP sent successfully to +919310766161
+2025-07-28 16:42:40 - pyrogram.parser.html - INFO - html.py:134 - Unclosed tags: <code> (x1)
+2025-07-28 16:42:49 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:42:49 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:42:49 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:42:49 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:42:49 - otp_handler - INFO - otp_handler.py:96 - OTP verification successful for +919310766161
+2025-07-28 16:42:49 - session_manager - INFO - session_manager.py:91 - Session saved successfully for +919310766161
+2025-07-28 16:42:49 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:42:50 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:42:50 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:42:51 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-222' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002788283487')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002788283487'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002788283487
+2025-07-28 16:42:51 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:42:59 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:42:59 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:42:59 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:42:59 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:42:59 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:42:59 - database_manager - INFO - database_manager.py:150 - Stored 142 groups for session +919310766161
+2025-07-28 16:42:59 - root - INFO - main.py:212 - Database storage result for +919310766161: {'success': True, 'message': 'Stored 142 groups successfully', 'groups_count': 142}
+2025-07-28 16:43:07 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:43:07 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:43:07 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:43:08 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:43:08 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:43:08 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:43:08 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:43:08 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:43:08 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:43:15 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:43:15 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:43:15 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:43:16 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:43:16 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:43:16 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:43:16 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:43:16 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:43:16 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-802' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002751264234')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002751264234'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002751264234
+2025-07-28 16:43:16 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:43:16 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-840' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002751264234')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002751264234'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002751264234
+2025-07-28 16:43:17 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:43:17 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:43:17 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:43:17 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:43:17 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:43:21 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:43:22 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:43:22 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:43:22 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:43:22 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:43:22 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:43:22 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:43:23 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:43:23 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:43:24 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 15 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:43:24 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 15 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:43:24 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 15 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:43:40 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:43:40 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:43:40 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:43:40 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:43:40 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:43:44 - database_manager - INFO - database_manager.py:394 - Database optimization completed: {'duplicates_removed': 0, 'inconsistencies_fixed': 0, 'orphaned_cleaned': 0, 'index_rebuilt': True}
+2025-07-28 16:43:46 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:43:46 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:43:46 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:43:46 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:43:46 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:44:02 - group_utils - INFO - group_utils.py:26 - Checking groups across 1 accounts for muted/restricted status
+2025-07-28 16:44:02 - group_utils - INFO - group_utils.py:34 - Checking groups for account: +919310766161
+2025-07-28 16:44:02 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:44:03 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:44:03 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:44:04 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:44:05 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1772' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002788283487')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002788283487'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002788283487
+2025-07-28 16:44:31 - pyrogram.session.session - WARNING - session.py:396 - [group_check_919310766161] Waiting for 14 seconds before continuing (required by "messages.GetHistory")
+2025-07-28 16:45:01 - pyrogram.session.session - WARNING - session.py:396 - [group_check_919310766161] Waiting for 15 seconds before continuing (required by "messages.GetHistory")
+2025-07-28 16:45:22 - group_utils - INFO - group_utils.py:93 - Left group: T20 Blast Match Report (+919310766161)
+2025-07-28 16:45:22 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:45:22 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:45:22 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:45:22 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:45:22 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:45:23 - group_utils - INFO - group_utils.py:62 - Group cleanup completed. Left 1 groups out of 141 checked
+2025-07-28 16:45:43 - broadcast - INFO - broadcast.py:29 - Starting broadcast to 1 accounts
+2025-07-28 16:45:43 - broadcast - INFO - broadcast.py:40 - Broadcasting from account: +919310766161
+2025-07-28 16:45:43 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:45:43 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:45:43 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:45:44 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:45:44 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:45:44 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:45:44 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:45:44 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:45:44 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:45:45 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4046' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002751264234')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002751264234'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002751264234
+2025-07-28 16:45:54 - broadcast - WARNING - broadcast.py:129 - Cannot write to English Group | Russian Group from +919310766161 (forbidden)
+2025-07-28 16:45:59 - broadcast - WARNING - broadcast.py:129 - Cannot write to ⛧ 𝐅𝐑𝐈𝐄𝐍𝐃𝐒 ♡ 𝐂𝐈𝐑𝐂𝐋𝐄 ⛧ from +919310766161 (forbidden)
+2025-07-28 16:46:03 - broadcast - WARNING - broadcast.py:129 - Cannot write to Tamilchat ✨ Tamil Friendship Group ✨ Tamil Chatting Group 💗💗 from +919310766161 (forbidden)
+2025-07-28 16:46:09 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 4 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:10 - broadcast - WARNING - broadcast.py:129 - Cannot write to English Chatting | International Group | English chatting Club | American chatting group from +919310766161 (forbidden)
+2025-07-28 16:46:12 - broadcast - WARNING - broadcast.py:129 - Cannot write to International friends club from +919310766161 (forbidden)
+2025-07-28 16:46:13 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 29 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:19 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 23 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:19 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 23 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:26 - broadcast - WARNING - broadcast.py:129 - Cannot write to ꧁❥‌বাংলা গপ্পো ঘর✿꧂ | 🇮🇳 from +919310766161 (forbidden)
+2025-07-28 16:46:35 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 7 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:39 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 3 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:47 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 26 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:46:48 - broadcast - ERROR - broadcast.py:135 - Error sending to 🇶 🇺 🇮 🇿 🖋️📖 🇸 🇹 🇦 🇷 from +919310766161: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 2540 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2025-07-28 16:46:50 - broadcast - WARNING - broadcast.py:129 - Cannot write to 🇲𝐀𝐒𝐓𝐈 🇹𝐈𝐌𝐄 🔥🌬️🍻😜😌 from +919310766161 (forbidden)
+2025-07-28 16:47:20 - broadcast - ERROR - broadcast.py:135 - Error sending to ONUS | Group Chat (English) from +919310766161: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 2540 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2025-07-28 16:47:29 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 14 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:47:37 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:47:37 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:47:37 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:47:37 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:47:37.619929
+2025-07-28 16:47:37 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:47:37 - root - INFO - main.py:564 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:47:37 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:47:38 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:47:38 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:47:39 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:47:39 - root - INFO - main.py:566 - Bot started successfully!
+2025-07-28 16:50:02 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 16:50:02 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 16:50:02 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 16:50:02 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T16:50:02.320413
+2025-07-28 16:50:02 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 16:50:02 - root - INFO - main.py:638 - Starting Telegram Multi-Account Bot...
+2025-07-28 16:50:02 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:50:02 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:50:02 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:50:03 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:50:03 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:50:03 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:50:03 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:50:03 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:50:04 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:50:04 - root - INFO - main.py:640 - Bot started successfully!
+2025-07-28 16:50:59 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:50:59 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:50:59 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:51:00 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:51:00 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:51:00 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:51:00 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:51:00 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:51:00 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:51:02 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 17 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:51:04 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 14 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:51:15 - pyrogram.session.session - WARNING - session.py:396 - [temp_count_client] Waiting for 3 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:51:25 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 16:51:25 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 16:51:25 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 16:51:25 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 16:51:25 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 16:52:56 - broadcast - INFO - broadcast.py:34 - Starting broadcast to 1 accounts
+2025-07-28 16:52:56 - broadcast - INFO - broadcast.py:45 - Broadcasting from account: +919310766161
+2025-07-28 16:52:56 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 16:52:56 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 16:52:56 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 16:52:57 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 16:52:57 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 16:52:57 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 16:52:57 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 16:52:57 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 16:52:57 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 16:53:02 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1377' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:53:02 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1396' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 16:53:02 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1410' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002223475762')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002223475762'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002223475762
+2025-07-28 16:53:02 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1419' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:53:03 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1479' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 16:53:03 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-1483' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 16:53:21 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-2453' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:53:50 - enhanced_error_handler - WARNING - enhanced_error_handler.py:90 - SlowmodeWait 183s for Girls Chatting Group - adapting
+2025-07-28 16:54:06 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4250' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:54:07 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4406' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:54:10 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4601' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 16:54:10 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4606' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:54:11 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4627' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002223475762')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002223475762'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002223475762
+2025-07-28 16:54:11 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4668' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:54:17 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-4949' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:54:20 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-5111' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:56:07 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-6380' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:56:54 - broadcast - INFO - broadcast.py:145 - ✅ Recovered and sent to Girls Chatting Group: Recovered from slowmode (183s)
+2025-07-28 16:57:11 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-7668' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 16:57:32 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 21 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:57:32 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-8795' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002431159011')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002431159011'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002431159011
+2025-07-28 16:57:57 - pyrogram.session.session - WARNING - session.py:396 - [broadcast_919310766161] Waiting for 26 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 16:59:58 - enhanced_error_handler - WARNING - enhanced_error_handler.py:90 - SlowmodeWait 300s for 🇶 🇺 🇮 🇿 🖋️📖 🇸 🇹 🇦 🇷 - adapting
+2025-07-28 17:00:24 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-13909' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 17:07:20 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 17:07:20 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 17:07:20 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 17:07:20 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T17:07:20.825569
+2025-07-28 17:07:20 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 17:07:20 - root - INFO - main.py:733 - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:07:21 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:07:21 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:07:21 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:07:22 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:07:22 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:07:22 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:07:22 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:07:22 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:07:22 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:07:22 - root - INFO - main.py:735 - Bot started successfully!
+2025-07-28 17:07:22 - health_monitor - INFO - health_monitor.py:45 - Starting professional health monitoring system
+2025-07-28 17:07:22 - root - INFO - main.py:739 - Professional health monitoring system activated
+2025-07-28 17:07:23 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:07:23 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:07:24 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:07:24 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:07:24 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:07:25 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:07:25 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:07:25 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 17:07:25 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 17:07:25 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 17:07:25 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 17:07:25 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 17:09:32 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 17:09:32 - root - INFO - logger.py:77 - ==================================================
+2025-07-28 17:09:32 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 17:09:32 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 17:09:32 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T17:09:32.293614
+2025-07-28 17:09:32 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 17:09:32 - root - INFO - logger.py:78 - Telegram Multi-Account Bot Starting
+2025-07-28 17:09:32 - root - INFO - logger.py:79 - Log level: INFO
+2025-07-28 17:09:32 - root - INFO - logger.py:80 - Timestamp: 2025-07-28T17:09:32.294502
+2025-07-28 17:09:32 - root - INFO - logger.py:81 - ==================================================
+2025-07-28 17:09:32 - root - INFO - main.py:733 - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:09:32 - root - INFO - main.py:733 - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:09:32 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:09:33 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:09:33 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:09:33 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:09:33 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:09:34 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:09:34 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:09:34 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:09:34 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:09:34 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:09:34 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:09:34 - root - INFO - main.py:735 - Bot started successfully!
+2025-07-28 17:09:34 - health_monitor - INFO - health_monitor.py:45 - Starting professional health monitoring system
+2025-07-28 17:09:34 - root - INFO - main.py:739 - Professional health monitoring system activated
+2025-07-28 17:09:35 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:09:35 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:09:35 - root - ERROR - main.py:760 - Error running bot: database is locked
+2025-07-28 17:09:35 - root - ERROR - main.py:774 - Bot crashed: Client is already terminated
+2025-07-28 17:09:35 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:09:35 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:09:35 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:09:35 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:09:36 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:09:36 - asyncio - ERROR - base_events.py:1785 - Task exception was never retrieved
+future: <Task finished name='Task-125' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002201442530')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002201442530'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002201442530
+2025-07-28 17:09:37 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:09:37 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:09:37 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 17:09:37 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 17:09:37 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 17:09:37 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 17:09:37 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 17:14:38 - pyrogram.connection.connection - INFO - connection.py:47 - Connecting...
+2025-07-28 17:14:38 - pyrogram.connection.connection - INFO - connection.py:54 - Connected! Production DC5 - IPv4
+2025-07-28 17:14:38 - pyrogram.session.session - INFO - session.py:294 - NetworkTask started
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:139 - Session initialized: Layer 158
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:140 - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:141 - System: Linux 6.2.16 (en)
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:155 - Session started
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:272 - PingTask started
+2025-07-28 17:14:39 - pyrogram.dispatcher - INFO - dispatcher.py:154 - Started 12 HandlerTasks
+2025-07-28 17:14:39 - pyrogram.dispatcher - INFO - dispatcher.py:167 - Stopped 12 HandlerTasks
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:291 - PingTask stopped
+2025-07-28 17:14:39 - pyrogram.connection.connection - INFO - connection.py:66 - Disconnected
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:315 - NetworkTask stopped
+2025-07-28 17:14:39 - pyrogram.session.session - INFO - session.py:180 - Session stopped
+2025-07-28 17:17:08,027 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,027 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,027 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,027 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,029 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,029 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,029 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,029 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,075 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,075 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,076 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,076 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,077 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,077 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,077 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,077 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,079 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,079 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,079 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,079 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,081 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,081 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,081 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,081 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,082 - INFO - All handlers registered successfully
+2025-07-28 17:17:08,083 - INFO - Bot initialized successfully!
+2025-07-28 17:17:08,083 - INFO - ==================================================
+2025-07-28 17:17:08,083 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:17:08,083 - INFO - Log level: 20
+2025-07-28 17:17:08,083 - INFO - Timestamp: 2025-07-28T17:17:08.083634
+2025-07-28 17:17:08,083 - INFO - ==================================================
+2025-07-28 17:17:08,085 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,085 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,085 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,085 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,087 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:08,087 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:08,087 - INFO - Directory structure created: sessions
+2025-07-28 17:17:08,087 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:08,103 - INFO - Starting professional health monitoring system
+2025-07-28 17:17:08,103 - INFO - Professional health monitoring system activated
+2025-07-28 17:17:08,104 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:17:08,542 - INFO - Connecting...
+2025-07-28 17:17:09,558 - INFO - Connecting...
+2025-07-28 17:17:09,572 - INFO - Connecting...
+2025-07-28 17:17:09,788 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:09,793 - INFO - NetworkTask started
+2025-07-28 17:17:09,798 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:09,801 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:09,805 - INFO - NetworkTask started
+2025-07-28 17:17:09,806 - INFO - NetworkTask started
+2025-07-28 17:17:10,592 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:10,592 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:10,592 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:10,592 - INFO - Session started
+2025-07-28 17:17:10,594 - INFO - PingTask started
+2025-07-28 17:17:10,607 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:10,607 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:10,607 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:10,607 - INFO - Session started
+2025-07-28 17:17:10,609 - INFO - PingTask started
+2025-07-28 17:17:10,610 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:10,610 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:10,611 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:10,611 - INFO - Session started
+2025-07-28 17:17:10,613 - INFO - PingTask started
+2025-07-28 17:17:11,024 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:11,024 - INFO - Bot started successfully!
+2025-07-28 17:17:11,026 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:11,040 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:11,231 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:17:11,232 - INFO - PingTask stopped
+2025-07-28 17:17:11,232 - INFO - Disconnected
+2025-07-28 17:17:11,232 - INFO - NetworkTask stopped
+2025-07-28 17:17:11,232 - INFO - Session stopped
+2025-07-28 17:17:11,249 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:17:11,249 - INFO - PingTask stopped
+2025-07-28 17:17:11,250 - INFO - Disconnected
+2025-07-28 17:17:11,250 - INFO - NetworkTask stopped
+2025-07-28 17:17:11,250 - INFO - Session stopped
+2025-07-28 17:17:24,850 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:17:25,628 - ERROR - Bot crashed: 'HealthMonitor' object has no attribute 'stop_monitoring'
+2025-07-28 17:17:28,977 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:28,978 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:28,978 - INFO - Directory structure created: sessions
+2025-07-28 17:17:28,978 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:28,979 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:28,980 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:28,980 - INFO - Directory structure created: sessions
+2025-07-28 17:17:28,980 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,004 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,004 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,005 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,005 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,006 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,006 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,006 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,006 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,008 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,008 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,008 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,008 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,010 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,010 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,010 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,010 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,011 - INFO - All handlers registered successfully
+2025-07-28 17:17:29,011 - INFO - Bot initialized successfully!
+2025-07-28 17:17:29,011 - INFO - ==================================================
+2025-07-28 17:17:29,011 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:17:29,011 - INFO - Log level: 20
+2025-07-28 17:17:29,011 - INFO - Timestamp: 2025-07-28T17:17:29.011697
+2025-07-28 17:17:29,011 - INFO - ==================================================
+2025-07-28 17:17:29,013 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,013 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,013 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,013 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,014 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:17:29,014 - INFO - All configuration parameters validated successfully
+2025-07-28 17:17:29,014 - INFO - Directory structure created: sessions
+2025-07-28 17:17:29,015 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:17:29,084 - INFO - Starting professional health monitoring system
+2025-07-28 17:17:29,085 - INFO - Professional health monitoring system activated
+2025-07-28 17:17:29,085 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:17:29,443 - INFO - Connecting...
+2025-07-28 17:17:30,463 - INFO - Connecting...
+2025-07-28 17:17:30,479 - INFO - Connecting...
+2025-07-28 17:17:30,688 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:30,689 - INFO - NetworkTask started
+2025-07-28 17:17:30,691 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:30,691 - INFO - NetworkTask started
+2025-07-28 17:17:30,691 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:17:30,692 - INFO - NetworkTask started
+2025-07-28 17:17:31,488 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:31,488 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:31,488 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:31,488 - INFO - Session started
+2025-07-28 17:17:31,490 - INFO - PingTask started
+2025-07-28 17:17:31,504 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:31,504 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:31,504 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:31,504 - INFO - Session started
+2025-07-28 17:17:31,507 - INFO - PingTask started
+2025-07-28 17:17:31,507 - INFO - Session initialized: Layer 158
+2025-07-28 17:17:31,507 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:17:31,507 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:17:31,507 - INFO - Session started
+2025-07-28 17:17:31,509 - INFO - PingTask started
+2025-07-28 17:17:31,896 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:31,896 - INFO - Bot started successfully!
+2025-07-28 17:17:31,935 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:31,937 - INFO - Started 12 HandlerTasks
+2025-07-28 17:17:32,170 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:17:32,171 - INFO - PingTask stopped
+2025-07-28 17:17:32,172 - INFO - Disconnected
+2025-07-28 17:17:32,173 - INFO - NetworkTask stopped
+2025-07-28 17:17:32,173 - INFO - Session stopped
+2025-07-28 17:17:32,174 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:17:32,174 - INFO - PingTask stopped
+2025-07-28 17:17:32,174 - INFO - Disconnected
+2025-07-28 17:17:32,174 - INFO - NetworkTask stopped
+2025-07-28 17:17:32,174 - INFO - Session stopped
+2025-07-28 17:17:53,773 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:17:53,991 - INFO - Start command executed by user 7784241637
+2025-07-28 17:18:07,422 - ERROR - Status command error: object dict can't be used in 'await' expression
+2025-07-28 17:22:12,318 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:22:17,222 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,223 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,223 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,224 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,226 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,226 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,226 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,226 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,270 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,270 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,271 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,271 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,273 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,273 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,273 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,273 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,275 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,276 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,276 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,276 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,278 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,278 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,278 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,278 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,280 - INFO - Loaded single owner ID from OWNER_ID (legacy format)
+2025-07-28 17:22:17,280 - INFO - All configuration parameters validated successfully
+2025-07-28 17:22:17,280 - INFO - Directory structure created: sessions
+2025-07-28 17:22:17,280 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:22:17,280 - ERROR - MONGO_DB_URL not found in environment variables
+2025-07-28 17:22:17,280 - ERROR - Bot initialization failed: MongoDB URL is required
+2025-07-28 17:25:11,702 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,703 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,703 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,703 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,706 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,706 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,706 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,706 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,734 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,735 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,735 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,735 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,766 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,766 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,766 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,766 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,768 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,768 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,768 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,769 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,771 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,771 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,771 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,771 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:11,774 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:11,774 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:11,774 - INFO - Directory structure created: sessions
+2025-07-28 17:25:11,774 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:14,126 - INFO - MongoDB connection established successfully
+2025-07-28 17:25:16,560 - INFO - MongoDB indexes created successfully
+2025-07-28 17:25:16,561 - INFO - All handlers registered successfully
+2025-07-28 17:25:16,561 - INFO - Bot initialized successfully!
+2025-07-28 17:25:16,562 - INFO - ==================================================
+2025-07-28 17:25:16,562 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:25:16,562 - INFO - Log level: 20
+2025-07-28 17:25:16,562 - INFO - Timestamp: 2025-07-28T17:25:16.562332
+2025-07-28 17:25:16,562 - INFO - ==================================================
+2025-07-28 17:25:16,564 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:16,565 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:16,565 - INFO - Directory structure created: sessions
+2025-07-28 17:25:16,565 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:16,568 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:25:16,568 - INFO - All configuration parameters validated successfully
+2025-07-28 17:25:16,568 - INFO - Directory structure created: sessions
+2025-07-28 17:25:16,568 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:25:16,598 - INFO - Starting professional health monitoring system
+2025-07-28 17:25:16,600 - INFO - Professional health monitoring system activated
+2025-07-28 17:25:16,600 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:25:16,949 - INFO - Connecting...
+2025-07-28 17:25:17,971 - INFO - Connecting...
+2025-07-28 17:25:18,007 - INFO - Connecting...
+2025-07-28 17:25:18,282 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:25:18,283 - INFO - NetworkTask started
+2025-07-28 17:25:18,283 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:25:18,284 - INFO - NetworkTask started
+2025-07-28 17:25:18,284 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:25:18,285 - INFO - NetworkTask started
+2025-07-28 17:25:19,090 - INFO - Session initialized: Layer 158
+2025-07-28 17:25:19,090 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:25:19,090 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:25:19,090 - INFO - Session started
+2025-07-28 17:25:19,092 - INFO - PingTask started
+2025-07-28 17:25:19,103 - INFO - Session initialized: Layer 158
+2025-07-28 17:25:19,104 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:25:19,104 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:25:19,104 - INFO - Session started
+2025-07-28 17:25:19,106 - INFO - PingTask started
+2025-07-28 17:25:19,112 - INFO - Session initialized: Layer 158
+2025-07-28 17:25:19,113 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:25:19,113 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:25:19,113 - INFO - Session started
+2025-07-28 17:25:19,116 - INFO - PingTask started
+2025-07-28 17:25:19,495 - INFO - Started 12 HandlerTasks
+2025-07-28 17:25:19,514 - INFO - Started 12 HandlerTasks
+2025-07-28 17:25:19,624 - INFO - Started 12 HandlerTasks
+2025-07-28 17:25:19,624 - INFO - Bot started successfully!
+2025-07-28 17:25:19,700 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:25:19,700 - INFO - PingTask stopped
+2025-07-28 17:25:19,701 - INFO - Disconnected
+2025-07-28 17:25:19,701 - INFO - NetworkTask stopped
+2025-07-28 17:25:19,701 - INFO - Session stopped
+2025-07-28 17:25:19,723 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:25:19,723 - INFO - PingTask stopped
+2025-07-28 17:25:19,723 - INFO - Disconnected
+2025-07-28 17:25:19,724 - INFO - NetworkTask stopped
+2025-07-28 17:25:19,724 - INFO - Session stopped
+2025-07-28 17:25:27,059 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:25:27,312 - INFO - Start command executed by user 7784241637
+2025-07-28 17:25:44,897 - ERROR - Add account command error: 'OTPHandler' object has no attribute 'send_code'
+2025-07-28 17:28:36,622 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:28:37,061 - INFO - Start command executed by user 7784241637
+2025-07-28 17:29:23,578 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:29:24,387 - ERROR - Bot crashed: 'HealthMonitor' object has no attribute 'stop_monitoring'
+2025-07-28 17:29:28,326 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,326 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,326 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,326 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,329 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,329 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,329 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,329 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,332 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,332 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,332 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,332 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,377 - INFO - Encryption initialized successfully
+2025-07-28 17:29:28,377 - INFO - Session manager initialized successfully
+2025-07-28 17:29:28,380 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,380 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,380 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,381 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,383 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,383 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,383 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,383 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,383 - INFO - Group manager initialized
+2025-07-28 17:29:28,386 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,386 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,386 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,386 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:28,389 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:28,389 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:28,389 - INFO - Directory structure created: sessions
+2025-07-28 17:29:28,389 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:30,741 - INFO - MongoDB connection established successfully
+2025-07-28 17:29:33,207 - INFO - MongoDB indexes created successfully
+2025-07-28 17:29:33,209 - INFO - All handlers registered successfully
+2025-07-28 17:29:33,209 - INFO - Bot initialized successfully!
+2025-07-28 17:29:33,209 - INFO - ==================================================
+2025-07-28 17:29:33,209 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:29:33,209 - INFO - Log level: 20
+2025-07-28 17:29:33,209 - INFO - Timestamp: 2025-07-28T17:29:33.209637
+2025-07-28 17:29:33,209 - INFO - ==================================================
+2025-07-28 17:29:33,212 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:33,213 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:33,213 - INFO - Directory structure created: sessions
+2025-07-28 17:29:33,213 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:33,215 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:33,216 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:33,216 - INFO - Directory structure created: sessions
+2025-07-28 17:29:33,216 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:33,219 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:29:33,219 - INFO - All configuration parameters validated successfully
+2025-07-28 17:29:33,219 - INFO - Directory structure created: sessions
+2025-07-28 17:29:33,219 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:29:33,245 - INFO - Encryption initialized successfully
+2025-07-28 17:29:33,247 - INFO - Session manager initialized successfully
+2025-07-28 17:29:33,248 - INFO - Starting professional health monitoring system
+2025-07-28 17:29:33,248 - INFO - Professional health monitoring system activated
+2025-07-28 17:29:33,248 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:29:33,542 - INFO - Connecting...
+2025-07-28 17:29:34,546 - ERROR - Error getting session health: object of type 'coroutine' has no len()
+2025-07-28 17:29:34,553 - ERROR - Session health check error: 'coroutine' object has no attribute 'items'
+2025-07-28 17:29:34,788 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:29:34,789 - INFO - NetworkTask started
+2025-07-28 17:29:35,596 - INFO - Session initialized: Layer 158
+2025-07-28 17:29:35,596 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:29:35,596 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:29:35,596 - INFO - Session started
+2025-07-28 17:29:35,598 - INFO - PingTask started
+2025-07-28 17:29:36,003 - INFO - Started 12 HandlerTasks
+2025-07-28 17:29:36,003 - INFO - Bot started successfully!
+2025-07-28 17:29:49,102 - INFO - Start creating a new auth key on DC2
+2025-07-28 17:29:49,103 - INFO - Connecting...
+2025-07-28 17:29:49,242 - INFO - Connected! Production DC2 - IPv4
+2025-07-28 17:29:51,222 - INFO - Done auth key exchange: DhGenOk
+2025-07-28 17:29:51,223 - INFO - Disconnected
+2025-07-28 17:29:51,244 - INFO - Connecting...
+2025-07-28 17:29:51,384 - INFO - Connected! Production DC2 - IPv4
+2025-07-28 17:29:51,384 - INFO - NetworkTask started
+2025-07-28 17:29:51,996 - INFO - Session initialized: Layer 158
+2025-07-28 17:29:51,996 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:29:51,996 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:29:51,996 - INFO - Session started
+2025-07-28 17:29:51,998 - INFO - PingTask started
+2025-07-28 17:29:52,153 - INFO - PingTask stopped
+2025-07-28 17:29:52,153 - INFO - Disconnected
+2025-07-28 17:29:52,153 - INFO - NetworkTask stopped
+2025-07-28 17:29:52,153 - INFO - Session stopped
+2025-07-28 17:29:52,175 - INFO - Start creating a new auth key on DC5
+2025-07-28 17:29:52,177 - INFO - Connecting...
+2025-07-28 17:29:52,363 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:29:54,189 - INFO - Done auth key exchange: DhGenOk
+2025-07-28 17:29:54,190 - INFO - Disconnected
+2025-07-28 17:29:54,209 - INFO - Connecting...
+2025-07-28 17:29:54,394 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:29:54,394 - INFO - NetworkTask started
+2025-07-28 17:29:55,188 - INFO - Session initialized: Layer 158
+2025-07-28 17:29:55,188 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:29:55,194 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:29:55,194 - INFO - Session started
+2025-07-28 17:29:55,194 - INFO - PingTask started
+2025-07-28 17:29:55,617 - INFO - OTP sent successfully to +919310766161
+2025-07-28 17:29:56,010 - INFO - OTP sent successfully to +919310766161
+2025-07-28 17:30:04,735 - INFO - PingTask stopped
+2025-07-28 17:30:04,735 - INFO - Disconnected
+2025-07-28 17:30:04,736 - INFO - NetworkTask stopped
+2025-07-28 17:30:04,736 - INFO - Session stopped
+2025-07-28 17:30:04,736 - INFO - OTP verification successful for +919310766161
+2025-07-28 17:30:04,738 - ERROR - Error loading encrypted file sessions/sessions_index.enc: 
+2025-07-28 17:30:04,738 - INFO - Session saved successfully for +919310766161
+2025-07-28 17:30:04,758 - INFO - Connecting...
+2025-07-28 17:30:04,759 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-178' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ProgrammingError('Cannot operate on a closed database.')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 540, in handle_updates
+    await self.fetch_peers(updates.users),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 531, in fetch_peers
+    await self.storage.update_peers(parsed_peers)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 129, in update_peers
+    self.conn.executemany(
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+2025-07-28 17:30:04,943 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:30:04,944 - INFO - NetworkTask started
+2025-07-28 17:30:05,745 - INFO - Session initialized: Layer 158
+2025-07-28 17:30:05,745 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:30:05,745 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:30:05,745 - INFO - Session started
+2025-07-28 17:30:05,748 - INFO - PingTask started
+2025-07-28 17:30:06,154 - INFO - Started 12 HandlerTasks
+2025-07-28 17:30:06,357 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:30:06,358 - INFO - PingTask stopped
+2025-07-28 17:30:06,358 - INFO - Disconnected
+2025-07-28 17:30:06,358 - INFO - NetworkTask stopped
+2025-07-28 17:30:06,358 - INFO - Session stopped
+2025-07-28 17:30:06,604 - ERROR - Error storing user data for +919310766161: Updating the path 'created_at' would create a conflict at 'created_at', full error: {'index': 0, 'code': 40, 'errmsg': "Updating the path 'created_at' would create a conflict at 'created_at'"}
+2025-07-28 17:30:06,815 - INFO - Account +919310766161 added successfully
+2025-07-28 17:30:13,746 - INFO - Retrieved 1 active sessions
+2025-07-28 17:30:13,746 - ERROR - Status command error: 'HealthMonitor' object has no attribute 'get_system_health'
+2025-07-28 17:31:34,558 - ERROR - Session health check error: 'coroutine' object has no attribute 'items'
+2025-07-28 17:32:23,480 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:32:25,782 - ERROR - Bot crashed: 'HealthMonitor' object has no attribute 'stop_monitoring'
+2025-07-28 17:32:28,920 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,920 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,921 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,921 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,923 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,923 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,924 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,924 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,926 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,927 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,927 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,927 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,976 - INFO - Encryption initialized successfully
+2025-07-28 17:32:28,976 - INFO - Session manager initialized successfully
+2025-07-28 17:32:28,979 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,979 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,979 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,979 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,981 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,982 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,982 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,982 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,982 - INFO - Group manager initialized
+2025-07-28 17:32:28,985 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,985 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,985 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,985 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:28,988 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:28,988 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:28,988 - INFO - Directory structure created: sessions
+2025-07-28 17:32:28,988 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:31,290 - INFO - MongoDB connection established successfully
+2025-07-28 17:32:33,648 - INFO - MongoDB indexes created successfully
+2025-07-28 17:32:33,649 - INFO - All handlers registered successfully
+2025-07-28 17:32:33,649 - INFO - Bot initialized successfully!
+2025-07-28 17:32:33,650 - INFO - ==================================================
+2025-07-28 17:32:33,650 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:32:33,650 - INFO - Log level: 20
+2025-07-28 17:32:33,650 - INFO - Timestamp: 2025-07-28T17:32:33.650301
+2025-07-28 17:32:33,650 - INFO - ==================================================
+2025-07-28 17:32:33,652 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:33,652 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:33,652 - INFO - Directory structure created: sessions
+2025-07-28 17:32:33,653 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:33,655 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:33,655 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:33,655 - INFO - Directory structure created: sessions
+2025-07-28 17:32:33,655 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:33,658 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:33,658 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:33,658 - INFO - Directory structure created: sessions
+2025-07-28 17:32:33,658 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:33,685 - INFO - Encryption initialized successfully
+2025-07-28 17:32:33,686 - INFO - Session manager initialized successfully
+2025-07-28 17:32:33,686 - INFO - Starting professional health monitoring system
+2025-07-28 17:32:33,686 - INFO - Professional health monitoring system activated
+2025-07-28 17:32:33,686 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:32:34,010 - INFO - Connecting...
+2025-07-28 17:32:35,014 - INFO - Retrieved 1 active sessions
+2025-07-28 17:32:35,014 - INFO - Retrieved 1 active sessions
+2025-07-28 17:32:35,014 - ERROR - Error checking session +919310766161 health: string indices must be integers, not 'str'
+2025-07-28 17:32:35,304 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:32:35,305 - INFO - NetworkTask started
+2025-07-28 17:32:36,103 - INFO - Session initialized: Layer 158
+2025-07-28 17:32:36,104 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:32:36,104 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:32:36,104 - INFO - Session started
+2025-07-28 17:32:36,107 - INFO - PingTask started
+2025-07-28 17:32:36,516 - INFO - Started 12 HandlerTasks
+2025-07-28 17:32:36,516 - INFO - Bot started successfully!
+2025-07-28 17:32:40,793 - INFO - Retrieved 1 active sessions
+2025-07-28 17:32:41,794 - INFO - Unclosed tags: <b> (x1)
+2025-07-28 17:32:42,008 - INFO - Status command executed - 1 accounts active
+2025-07-28 17:32:49,604 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:32:49,820 - INFO - Start command executed by user 7784241637
+2025-07-28 17:32:53,574 - INFO - Retrieved 1 active sessions
+2025-07-28 17:32:54,013 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:32:54,013 - INFO - All configuration parameters validated successfully
+2025-07-28 17:32:54,013 - INFO - Directory structure created: sessions
+2025-07-28 17:32:54,013 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:32:54,032 - INFO - Connecting...
+2025-07-28 17:32:54,220 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:32:54,221 - INFO - NetworkTask started
+2025-07-28 17:32:55,030 - INFO - Session initialized: Layer 158
+2025-07-28 17:32:55,030 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:32:55,030 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:32:55,030 - INFO - Session started
+2025-07-28 17:32:55,032 - INFO - PingTask started
+2025-07-28 17:32:55,446 - INFO - Started 12 HandlerTasks
+2025-07-28 17:33:01,484 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:33:01,484 - INFO - PingTask stopped
+2025-07-28 17:33:01,484 - INFO - Disconnected
+2025-07-28 17:33:01,485 - INFO - NetworkTask stopped
+2025-07-28 17:33:01,485 - INFO - Session stopped
+2025-07-28 17:33:01,695 - INFO - Group cleanup completed: 0 groups left from 1 accounts
+2025-07-28 17:33:20,206 - INFO - Database stats command executed successfully
+2025-07-28 17:33:32,738 - INFO - Retrieved 1 active sessions
+2025-07-28 17:33:32,950 - ERROR - Broadcast command error: 'BroadcastManager' object has no attribute 'broadcast_to_all'
+2025-07-28 17:37:20,355 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:37:22,142 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:37:22,143 - INFO - PingTask stopped
+2025-07-28 17:37:22,143 - INFO - Disconnected
+2025-07-28 17:37:22,144 - INFO - NetworkTask stopped
+2025-07-28 17:37:22,144 - INFO - Session stopped
+2025-07-28 17:37:22,144 - INFO - Bot stopped gracefully
+2025-07-28 17:37:28,378 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,378 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,378 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,379 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,381 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,382 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,382 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,382 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,384 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,385 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,385 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,385 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,408 - INFO - Encryption initialized successfully
+2025-07-28 17:37:28,408 - INFO - Session manager initialized successfully
+2025-07-28 17:37:28,411 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,411 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,411 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,411 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,413 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,413 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,414 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,414 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,414 - INFO - Group manager initialized
+2025-07-28 17:37:28,416 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,416 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,416 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,416 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:28,418 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:28,418 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:28,418 - INFO - Directory structure created: sessions
+2025-07-28 17:37:28,419 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:30,696 - INFO - MongoDB connection established successfully
+2025-07-28 17:37:33,021 - INFO - MongoDB indexes created successfully
+2025-07-28 17:37:33,022 - INFO - All handlers registered successfully
+2025-07-28 17:37:33,023 - INFO - Bot initialized successfully!
+2025-07-28 17:37:33,023 - INFO - ==================================================
+2025-07-28 17:37:33,023 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:37:33,023 - INFO - Log level: 20
+2025-07-28 17:37:33,023 - INFO - Timestamp: 2025-07-28T17:37:33.023424
+2025-07-28 17:37:33,023 - INFO - ==================================================
+2025-07-28 17:37:33,025 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:33,025 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:33,025 - INFO - Directory structure created: sessions
+2025-07-28 17:37:33,026 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:33,027 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:33,027 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:33,027 - INFO - Directory structure created: sessions
+2025-07-28 17:37:33,027 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:33,029 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:37:33,029 - INFO - All configuration parameters validated successfully
+2025-07-28 17:37:33,029 - INFO - Directory structure created: sessions
+2025-07-28 17:37:33,030 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:37:33,046 - INFO - Encryption initialized successfully
+2025-07-28 17:37:33,046 - INFO - Session manager initialized successfully
+2025-07-28 17:37:33,046 - INFO - Starting professional health monitoring system
+2025-07-28 17:37:33,046 - INFO - Professional health monitoring system activated
+2025-07-28 17:37:33,046 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:37:33,325 - INFO - Connecting...
+2025-07-28 17:37:34,327 - INFO - Retrieved 1 active sessions
+2025-07-28 17:37:34,342 - INFO - Connecting...
+2025-07-28 17:37:34,342 - INFO - Retrieved 1 active sessions
+2025-07-28 17:37:34,355 - INFO - Connecting...
+2025-07-28 17:37:34,576 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:37:34,577 - INFO - NetworkTask started
+2025-07-28 17:37:34,578 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:37:34,579 - INFO - NetworkTask started
+2025-07-28 17:37:34,580 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:37:34,580 - INFO - NetworkTask started
+2025-07-28 17:37:35,374 - INFO - Session initialized: Layer 158
+2025-07-28 17:37:35,374 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:37:35,374 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:37:35,374 - INFO - Session started
+2025-07-28 17:37:35,377 - INFO - PingTask started
+2025-07-28 17:37:35,384 - INFO - Session initialized: Layer 158
+2025-07-28 17:37:35,384 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:37:35,384 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:37:35,384 - INFO - Session started
+2025-07-28 17:37:35,387 - INFO - PingTask started
+2025-07-28 17:37:35,391 - INFO - Session initialized: Layer 158
+2025-07-28 17:37:35,391 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:37:35,391 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:37:35,391 - INFO - Session started
+2025-07-28 17:37:35,394 - INFO - PingTask started
+2025-07-28 17:37:35,802 - INFO - Started 12 HandlerTasks
+2025-07-28 17:37:35,802 - INFO - Bot started successfully!
+2025-07-28 17:37:35,813 - INFO - Started 12 HandlerTasks
+2025-07-28 17:37:35,825 - INFO - Started 12 HandlerTasks
+2025-07-28 17:37:36,081 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:37:36,081 - INFO - PingTask stopped
+2025-07-28 17:37:36,082 - INFO - Disconnected
+2025-07-28 17:37:36,082 - INFO - NetworkTask stopped
+2025-07-28 17:37:36,082 - INFO - Session stopped
+2025-07-28 17:37:36,100 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:37:36,100 - INFO - PingTask stopped
+2025-07-28 17:37:36,101 - INFO - Disconnected
+2025-07-28 17:37:36,101 - INFO - NetworkTask stopped
+2025-07-28 17:37:36,101 - INFO - Session stopped
+2025-07-28 17:37:49,469 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:37:49,683 - INFO - Start command executed by user 7784241637
+2025-07-28 17:37:52,621 - INFO - Unclosed tags: <code> (x1)
+2025-07-28 17:37:52,837 - INFO - Start command executed by user 7579533305
+2025-07-28 17:38:14,235 - INFO - Retrieved 1 active sessions
+2025-07-28 17:38:15,236 - INFO - Unclosed tags: <b> (x1)
+2025-07-28 17:38:15,688 - INFO - Status command executed - 1 accounts active
+2025-07-28 17:38:19,566 - INFO - Retrieved 1 active sessions
+2025-07-28 17:38:20,567 - INFO - Unclosed tags: <b> (x1)
+2025-07-28 17:38:20,786 - INFO - Status command executed - 1 accounts active
+2025-07-28 17:38:59,745 - INFO - Retrieved 1 active sessions
+2025-07-28 17:38:59,960 - INFO - Starting broadcast for session +919310766161
+2025-07-28 17:38:59,960 - ERROR - Broadcast to all sessions failed: string indices must be integers, not 'str'
+2025-07-28 17:39:00,174 - ERROR - Broadcast failed: string indices must be integers, not 'str'
+2025-07-28 17:39:12,067 - INFO - Retrieved 1 active sessions
+2025-07-28 17:39:12,284 - INFO - Starting broadcast for session +919310766161
+2025-07-28 17:39:12,284 - ERROR - Broadcast to all sessions failed: string indices must be integers, not 'str'
+2025-07-28 17:39:12,493 - ERROR - Broadcast failed: string indices must be integers, not 'str'
+2025-07-28 17:42:37,104 - INFO - Retrieved 1 active sessions
+2025-07-28 17:42:37,127 - INFO - Connecting...
+2025-07-28 17:42:37,315 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:42:37,316 - INFO - NetworkTask started
+2025-07-28 17:42:38,128 - INFO - Session initialized: Layer 158
+2025-07-28 17:42:38,128 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:42:38,128 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:42:38,129 - INFO - Session started
+2025-07-28 17:42:38,131 - INFO - PingTask started
+2025-07-28 17:42:38,545 - INFO - Started 12 HandlerTasks
+2025-07-28 17:42:38,947 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:42:38,947 - INFO - PingTask stopped
+2025-07-28 17:42:38,947 - INFO - Disconnected
+2025-07-28 17:42:38,947 - INFO - NetworkTask stopped
+2025-07-28 17:42:38,948 - INFO - Session stopped
+2025-07-28 17:42:53,746 - INFO - [1] Retrying "updates.GetChannelDifference" due to: Request timed out
+2025-07-28 17:42:53,852 - INFO - [1] Retrying "channels.GetChannels" due to: Request timed out
+2025-07-28 17:43:09,250 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:09,251 - INFO - [2] Retrying "updates.GetChannelDifference" due to: Connection lost
+2025-07-28 17:43:09,355 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:09,356 - INFO - [2] Retrying "channels.GetChannels" due to: Connection lost
+2025-07-28 17:43:24,756 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:24,756 - INFO - [3] Retrying "updates.GetChannelDifference" due to: Connection lost
+2025-07-28 17:43:24,857 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:24,865 - INFO - [3] Retrying "channels.GetChannels" due to: Connection lost
+2025-07-28 17:43:40,262 - WARNING - socket.send() raised exception.
+2025-07-28 17:43:40,262 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:40,263 - INFO - [4] Retrying "updates.GetChannelDifference" due to: Connection lost
+2025-07-28 17:43:40,367 - WARNING - socket.send() raised exception.
+2025-07-28 17:43:40,368 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:40,368 - INFO - [4] Retrying "channels.GetChannels" due to: Connection lost
+2025-07-28 17:43:55,769 - WARNING - socket.send() raised exception.
+2025-07-28 17:43:55,769 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:55,770 - INFO - [5] Retrying "updates.GetChannelDifference" due to: Connection lost
+2025-07-28 17:43:55,869 - WARNING - socket.send() raised exception.
+2025-07-28 17:43:55,870 - INFO - Send exception: ConnectionResetError Connection lost
+2025-07-28 17:43:55,870 - INFO - [5] Retrying "channels.GetChannels" due to: Connection lost
+2025-07-28 17:44:06,996 - INFO - Received signal 15, shutting down gracefully...
+2025-07-28 17:44:11,228 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,228 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,228 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,228 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,230 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,231 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,232 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,232 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,235 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,235 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,235 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,235 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,281 - INFO - Encryption initialized successfully
+2025-07-28 17:44:11,281 - INFO - Session manager initialized successfully
+2025-07-28 17:44:11,284 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,284 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,284 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,284 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,287 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,287 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,287 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,287 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,287 - INFO - Group manager initialized
+2025-07-28 17:44:11,290 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,290 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,290 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,290 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:11,293 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:11,293 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:11,293 - INFO - Directory structure created: sessions
+2025-07-28 17:44:11,293 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:13,643 - INFO - MongoDB connection established successfully
+2025-07-28 17:44:15,995 - INFO - MongoDB indexes created successfully
+2025-07-28 17:44:15,997 - INFO - All handlers registered successfully
+2025-07-28 17:44:15,997 - INFO - Bot initialized successfully!
+2025-07-28 17:44:15,997 - INFO - ==================================================
+2025-07-28 17:44:15,997 - INFO - Telegram Multi-Account Bot Starting
+2025-07-28 17:44:15,998 - INFO - Log level: 20
+2025-07-28 17:44:15,998 - INFO - Timestamp: 2025-07-28T17:44:15.998188
+2025-07-28 17:44:15,998 - INFO - ==================================================
+2025-07-28 17:44:16,001 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:16,002 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:16,002 - INFO - Directory structure created: sessions
+2025-07-28 17:44:16,002 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:16,005 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:16,006 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:16,006 - INFO - Directory structure created: sessions
+2025-07-28 17:44:16,006 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:16,009 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:44:16,009 - INFO - All configuration parameters validated successfully
+2025-07-28 17:44:16,009 - INFO - Directory structure created: sessions
+2025-07-28 17:44:16,010 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:44:16,033 - INFO - Encryption initialized successfully
+2025-07-28 17:44:16,034 - INFO - Session manager initialized successfully
+2025-07-28 17:44:16,034 - INFO - Starting professional health monitoring system
+2025-07-28 17:44:16,034 - INFO - Professional health monitoring system activated
+2025-07-28 17:44:16,034 - INFO - Starting Professional Telegram Multi-Account Bot...
+2025-07-28 17:44:16,366 - INFO - Connecting...
+2025-07-28 17:44:17,370 - INFO - Retrieved 1 active sessions
+2025-07-28 17:44:17,387 - INFO - Connecting...
+2025-07-28 17:44:17,388 - INFO - Retrieved 1 active sessions
+2025-07-28 17:44:17,402 - INFO - Connecting...
+2025-07-28 17:44:17,674 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:44:17,675 - INFO - NetworkTask started
+2025-07-28 17:44:17,676 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:44:17,677 - INFO - NetworkTask started
+2025-07-28 17:44:17,677 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:44:17,677 - INFO - NetworkTask started
+2025-07-28 17:44:18,470 - INFO - Session initialized: Layer 158
+2025-07-28 17:44:18,471 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:44:18,471 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:44:18,471 - INFO - Session started
+2025-07-28 17:44:18,473 - INFO - PingTask started
+2025-07-28 17:44:18,475 - INFO - Session initialized: Layer 158
+2025-07-28 17:44:18,475 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:44:18,475 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:44:18,475 - INFO - Session started
+2025-07-28 17:44:18,477 - INFO - PingTask started
+2025-07-28 17:44:18,484 - INFO - Session initialized: Layer 158
+2025-07-28 17:44:18,484 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:44:18,485 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:44:18,485 - INFO - Session started
+2025-07-28 17:44:18,487 - INFO - PingTask started
+2025-07-28 17:44:18,876 - INFO - Started 12 HandlerTasks
+2025-07-28 17:44:18,876 - INFO - Bot started successfully!
+2025-07-28 17:44:18,882 - INFO - Started 12 HandlerTasks
+2025-07-28 17:44:18,888 - INFO - Started 12 HandlerTasks
+2025-07-28 17:44:19,094 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:44:19,095 - INFO - PingTask stopped
+2025-07-28 17:44:19,095 - INFO - Disconnected
+2025-07-28 17:44:19,096 - INFO - NetworkTask stopped
+2025-07-28 17:44:19,096 - INFO - Session stopped
+2025-07-28 17:44:19,100 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:44:19,100 - INFO - PingTask stopped
+2025-07-28 17:44:19,100 - INFO - Disconnected
+2025-07-28 17:44:19,101 - INFO - NetworkTask stopped
+2025-07-28 17:44:19,101 - INFO - Session stopped
+2025-07-28 17:44:25,451 - INFO - Retrieved 1 active sessions
+2025-07-28 17:44:25,661 - INFO - Starting broadcast for session +919310766161
+2025-07-28 17:44:25,680 - INFO - Connecting...
+2025-07-28 17:44:25,866 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:44:25,867 - INFO - NetworkTask started
+2025-07-28 17:44:26,670 - INFO - Session initialized: Layer 158
+2025-07-28 17:44:26,670 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:44:26,670 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:44:26,670 - INFO - Session started
+2025-07-28 17:44:26,673 - INFO - PingTask started
+2025-07-28 17:44:27,074 - WARNING - [broadcast_919310766161] Waiting for 3 seconds before continuing (required by "users.GetFullUser")
+2025-07-28 17:44:30,282 - INFO - Started 12 HandlerTasks
+2025-07-28 17:44:33,873 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-377' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002788283487')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002788283487'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002788283487
+2025-07-28 17:44:37,180 - INFO - Retrieved 142 groups for session +919310766161
+2025-07-28 17:44:37,575 - WARNING - Failed to send to Promotion ki duniya: admin_required
+2025-07-28 17:44:38,772 - WARNING - Failed to send to Link Ki Duniya: admin_required
+2025-07-28 17:44:40,035 - WARNING - Failed to send to English Group | Russian Group: write_forbidden
+2025-07-28 17:44:50,203 - WARNING - Failed to send to English Chatting | International Group | English chatting Club | American chatting group: write_forbidden
+2025-07-28 17:45:01,518 - WARNING - Failed to send to ꧁❥‌বাংলা গপ্পো ঘর✿꧂ | 🇮🇳: write_forbidden
+2025-07-28 17:45:19,877 - WARNING - Failed to send to 📖 🖋️Only study group 🖋️ ✍🏻: write_forbidden
+2025-07-28 17:45:32,074 - WARNING - Failed to send to International friends club: write_forbidden
+2025-07-28 17:46:57,116 - INFO - Retrieved 1 active sessions
+2025-07-28 17:46:58,121 - INFO - Unclosed tags: <b> (x1)
+2025-07-28 17:46:58,336 - INFO - Status command executed - 1 accounts active
+2025-07-28 17:47:03,779 - WARNING - Failed to send to 🇲𝐀𝐒𝐓𝐈 🇹𝐈𝐌𝐄 🔥🌬️🍻😜😌: write_forbidden
+2025-07-28 17:47:33,312 - WARNING - Failed to send to ꧁☞ARITHMETIC . Come꧂: write_forbidden
+2025-07-28 17:47:35,960 - WARNING - Failed to send to Girl chatting Viral group: write_forbidden
+2025-07-28 17:47:46,540 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:47:46,540 - INFO - PingTask stopped
+2025-07-28 17:47:46,541 - INFO - Disconnected
+2025-07-28 17:47:46,541 - INFO - NetworkTask stopped
+2025-07-28 17:47:46,542 - INFO - Session stopped
+2025-07-28 17:47:48,004 - INFO - Broadcast record stored in MongoDB: 6887b7c3e15206115d4936be
+2025-07-28 17:47:48,213 - INFO - Broadcast completed: 130/142 messages sent
+2025-07-28 17:47:57,370 - INFO - Retrieved 1 active sessions
+2025-07-28 17:47:57,612 - INFO - Processing groups for session +919310766161
+2025-07-28 17:47:57,615 - INFO - Loaded 2 owner ID(s) from OWNER_IDS
+2025-07-28 17:47:57,615 - INFO - All configuration parameters validated successfully
+2025-07-28 17:47:57,615 - INFO - Directory structure created: sessions
+2025-07-28 17:47:57,615 - INFO - Configuration loaded and validated successfully
+2025-07-28 17:47:57,636 - INFO - Connecting...
+2025-07-28 17:47:57,825 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:47:57,826 - INFO - NetworkTask started
+2025-07-28 17:47:58,642 - INFO - Session initialized: Layer 158
+2025-07-28 17:47:58,643 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:47:58,643 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:47:58,643 - INFO - Session started
+2025-07-28 17:47:58,645 - INFO - PingTask started
+2025-07-28 17:47:59,053 - INFO - Started 12 HandlerTasks
+2025-07-28 17:47:59,894 - WARNING - [group_cleanup_919310766161] Waiting for 3 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 17:48:03,110 - WARNING - [group_cleanup_919310766161] Waiting for 28 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 17:48:03,498 - WARNING - [group_cleanup_919310766161] Waiting for 28 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 17:48:04,023 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6636' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002193110732')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002193110732'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002193110732
+2025-07-28 17:48:05,947 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6660' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002207237797')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002207237797'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002207237797
+2025-07-28 17:48:07,992 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6709' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002194738915')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002194738915'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002194738915
+2025-07-28 17:48:09,314 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6733' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002424406453')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002424406453'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002424406453
+2025-07-28 17:48:11,981 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6771' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002432797002')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002432797002'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002432797002
+2025-07-28 17:48:24,252 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7029' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002160742245')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002160742245'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002160742245
+2025-07-28 17:48:26,814 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7073' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002238201039')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002238201039'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002238201039
+2025-07-28 17:48:28,649 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7108' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002249295547')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002249295547'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002249295547
+2025-07-28 17:48:29,497 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7142' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 17:48:30,192 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7153' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002221634046')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002221634046'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002221634046
+2025-07-28 17:48:32,387 - WARNING - [group_cleanup_919310766161] Waiting for 30 seconds before continuing (required by "channels.GetMessages")
+2025-07-28 17:48:32,481 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7217' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002229712996')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002229712996'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002229712996
+2025-07-28 17:48:32,590 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7231' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002223475762')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002223475762'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002223475762
+2025-07-28 17:48:32,704 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7235' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002221634046')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002221634046'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002221634046
+2025-07-28 17:48:35,328 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7316' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002249295547')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002249295547'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002249295547
+2025-07-28 17:48:38,583 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7357' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002238201039')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002238201039'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002238201039
+2025-07-28 17:48:42,683 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7394' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002160742245')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002160742245'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002160742245
+2025-07-28 17:48:52,252 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7591' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002424406453')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002424406453'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002424406453
+2025-07-28 17:48:53,101 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7595' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002194738915')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002194738915'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002194738915
+2025-07-28 17:48:54,225 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7607' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002207237797')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002207237797'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002207237797
+2025-07-28 17:48:54,881 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7615' coro=<Client.handle_updates() done, defined at /home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py:535> exception=ValueError('Peer id invalid: -1002193110732')>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002193110732'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/pyrogram/utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002193110732
+2025-07-28 17:49:08,292 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:49:08,293 - INFO - PingTask stopped
+2025-07-28 17:49:08,294 - INFO - Disconnected
+2025-07-28 17:49:08,294 - INFO - NetworkTask stopped
+2025-07-28 17:49:08,294 - INFO - Session stopped
+2025-07-28 17:49:09,507 - INFO - Group cleanup completed: 0 groups left from 1 accounts
+2025-07-28 17:49:20,104 - INFO - Retrieved 1 active sessions
+2025-07-28 17:49:20,118 - INFO - Connecting...
+2025-07-28 17:49:20,303 - INFO - Connected! Production DC5 - IPv4
+2025-07-28 17:49:20,303 - INFO - NetworkTask started
+2025-07-28 17:49:21,215 - INFO - Session initialized: Layer 158
+2025-07-28 17:49:21,215 - INFO - Device: CPython 3.11.13 - Pyrogram 2.0.106
+2025-07-28 17:49:21,215 - INFO - System: Linux 6.2.16 (en)
+2025-07-28 17:49:21,215 - INFO - Session started
+2025-07-28 17:49:21,218 - INFO - PingTask started
+2025-07-28 17:49:21,658 - INFO - Started 12 HandlerTasks
+2025-07-28 17:49:21,862 - INFO - Stopped 12 HandlerTasks
+2025-07-28 17:49:21,863 - INFO - PingTask stopped
+2025-07-28 17:49:21,863 - INFO - Disconnected
+2025-07-28 17:49:21,863 - INFO - NetworkTask stopped
+2025-07-28 17:49:21,863 - INFO - Session stopped
+2025-07-28 17:50:05,823 - INFO - Analytics command executed successfully
+2025-07-28 17:50:21,999 - INFO - Database stats command executed successfully
+2025-07-28 17:50:34,721 - INFO - Retrieved 1 active sessions
+2025-07-28 17:50:35,723 - INFO - Unclosed tags: <b> (x1)
+2025-07-28 17:50:35,933 - INFO - Status command executed - 1 accounts active
