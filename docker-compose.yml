@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram-broadcast-bot
+    volumes:
+      - ./sessions:/app/sessions
+      - ./.env:/app/.env
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - OWNER_ID=${OWNER_ID}
+    restart: unless-stopped
+    tty: true
+    stdin_open: true

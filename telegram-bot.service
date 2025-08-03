@@ -1,0 +1,18 @@
+[Unit]
+Description=Telegram Broadcasting Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/project/sandbox/user-workspace/telegram-broadcast-dmbot
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+RestartSec=10
+Environment=BOT_TOKEN=your_bot_token_from_@BotFather
+Environment=API_ID=25387587
+Environment=API_HASH=7b8e2e5bb84c617a474656ad7439ea6a
+Environment=OWNER_ID=7784241637
+
+[Install]
+WantedBy=multi-user.target
